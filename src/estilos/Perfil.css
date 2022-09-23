@@ -6,14 +6,6 @@
 }
 
 
-
-.cardPerfil{
-    width: 400px;
-}
-
-
-.cardPerfilBody{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imgCardPerfil{
+    width:200px;
 }
