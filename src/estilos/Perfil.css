@@ -1,0 +1,19 @@
+
+.contenedorPerfil{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+
+.cardPerfil{
+    width: 400px;
+}
+
+
+.cardPerfilBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
