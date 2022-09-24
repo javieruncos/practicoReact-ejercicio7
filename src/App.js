@@ -10,8 +10,24 @@ function App() {
   return (
     <div className="App">
       <Container className=" mt-5">
-        <Perfil/>
-        <Perfil />
+        <Perfil 
+        img="hombre"
+        nombre="Sergio Ocampos"
+        oficio="Enginnering"
+        cargo="CTO"
+        />
+        <Perfil 
+        img="mujer"
+        nombre="Laya Dueñas"
+        oficio="Business"
+        cargo="CEO"
+        />
+        <Perfil 
+        img="mujer"
+        nombre="Shantell Meza"
+        oficio="Business"
+        cargo="CFO"
+        />
       </Container>
     </div>
   );
