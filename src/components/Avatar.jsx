@@ -13,7 +13,7 @@ const Avatar = (props) => {
             <div className='col-12 col-md-6  d-flex flex-column justify-content-center my-4'>
               <h2>{props.nombre}</h2>
               <p>{props.title}</p>
-              <p>{props.department}</p>
+              <p><span className='badge bg-primary'>{props.department}</span></p>
             </div>
         </div> 
         </>
