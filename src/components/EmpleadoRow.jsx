@@ -1,18 +1,16 @@
 import React from 'react';
-import '../estilos/Avatar.css'
 import Avatar from './Avatar';
-import Cards from './Cards';
+
 
 
 
 const EmpleadoRow = ({arregloEmpleados}) => {
     return (
         <div className='contenedorAvatar'>
+          
           {
-            arregloEmpleados.map((item)=>{return <Avatar img={item.pic}/>})
+            arregloEmpleados.map((item)=> <Avatar img={item.pic} nombre={item.fullName} key={item.id} title={item.title} department={item.department}/>)
           }
-
-
         </div>
     );
 };

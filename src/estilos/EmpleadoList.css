@@ -1,7 +1,15 @@
 .contenedorList{
-    height: 700px;
-    width: 500px;
+    height: 100%;
+    width: 50%;
     border: 5px solid grey;
     margin: 0 auto;
     
+}
+
+
+
+@media all and (max-width:540px){
+    .contenedorList{
+        width: 100%;
+    }
 }

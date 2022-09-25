@@ -1,12 +1,10 @@
 .Avatar{
-    height:200px;
-    width: 50%;
-    background-color: aqua;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-
-
-.Avatar img{
-    width: 100%;
-    height: 100%;
-} 
+@media all and (max-width:540px){
+    .imgAvatar{
+        margin: 0px 14px;
+    }
+}
