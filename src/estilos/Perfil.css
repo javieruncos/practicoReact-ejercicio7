@@ -1,11 +1,12 @@
-
-.contenedorPerfil{
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+.Avatar{
+    height:200px;
+    width: 50%;
+    background-color: aqua;
 }
 
 
-.imgCardPerfil{
-    width:200px;
-}
+
+.Avatar img{
+    width: 100%;
+    height: 100%;
+} 
